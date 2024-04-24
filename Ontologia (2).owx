@@ -1,0 +1,745 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jana/ontologies/2024/3/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jana/ontologies/2024/3/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.semanticweb.org/jana/ontologies/2024/3/untitled-ontology-9/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#America"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argentina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aurora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brasil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cabernet_Franc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cabernet_Sauvignon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carne_Vermelha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crepe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fabricante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#File_Mingnon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#França"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gorgonzola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Itália"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Japão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lagosta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Líbano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Massas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Merlot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Miolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pavê"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peixes_e_Frutos_do_Mar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perini"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Picanha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polvo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portugal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provolone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pudim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Queijos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raviolli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Região_de_Origem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sobremesas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tannat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_de_Comida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_de_Uva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vieira"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinho_Branco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinho_Espulmante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinho_Fortificado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinho_Rosé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinho_Tinto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#X-Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Àsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T&apos;Bone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eorganizado_como"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Aconcagua"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alemanha"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alentejo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#America"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Argentina"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bekaa_Valley"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bordeaux"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Borgonha"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Brasil"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cafayate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Califórnia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CasaBlanca_Valley"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Central_Otago"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Champagne"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Chile"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Douro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Espanha"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Estados_Unidos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Europa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#França"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hokusetsu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Itália"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Japão"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Koshu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Líbano"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Maharashtra"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Maipo_Valley"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Malborough"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Mendoza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Mosel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ningxia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nova_Zelândia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Oregon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Piemonte"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Portugal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rheingal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ribera_del_Duero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rioja"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#San_Juan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Serra_Gaúcha"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Shandong"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Toscana"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Vale_do_São_Francisco"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Veneto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Washington"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Xinjiang"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ásia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Índia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cabernet_Franc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cabernet_Sauvignon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carne_Grelhada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tipo_de_Uva"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#America"/>
+        <Class IRI="#Região_de_Origem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <Class IRI="#America"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aurora"/>
+        <Class IRI="#Fabricante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasil"/>
+        <Class IRI="#America"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brie"/>
+        <Class IRI="#Queijos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabernet_Franc"/>
+        <Class IRI="#Tipo_de_Uva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabernet_Sauvignon"/>
+        <Class IRI="#Tipo_de_Uva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carne_Vermelha"/>
+        <Class IRI="#Tipo_de_Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chile"/>
+        <Class IRI="#America"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <Class IRI="#Àsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crepe"/>
+        <Class IRI="#Massas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <Class IRI="#Região_de_Origem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#File_Mingnon"/>
+        <Class IRI="#Carne_Vermelha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#França"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gorgonzola"/>
+        <Class IRI="#Queijos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Itália"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japão"/>
+        <Class IRI="#Àsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lagosta"/>
+        <Class IRI="#Peixes_e_Frutos_do_Mar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Líbano"/>
+        <Class IRI="#Àsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Massas"/>
+        <Class IRI="#Tipo_de_Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Merlot"/>
+        <Class IRI="#Tipo_de_Uva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Miolo"/>
+        <Class IRI="#Fabricante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pavê"/>
+        <Class IRI="#Sobremesas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peixes_e_Frutos_do_Mar"/>
+        <Class IRI="#Tipo_de_Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perini"/>
+        <Class IRI="#Fabricante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Picanha"/>
+        <Class IRI="#Carne_Vermelha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pizza"/>
+        <Class IRI="#Massas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polvo"/>
+        <Class IRI="#Peixes_e_Frutos_do_Mar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portugal"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provolone"/>
+        <Class IRI="#Queijos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pudim"/>
+        <Class IRI="#Sobremesas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Queijos"/>
+        <Class IRI="#Tipo_de_Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raviolli"/>
+        <Class IRI="#Massas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sobremesas"/>
+        <Class IRI="#Tipo_de_Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tannat"/>
+        <Class IRI="#Tipo_de_Uva"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vieira"/>
+        <Class IRI="#Peixes_e_Frutos_do_Mar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinho_Branco"/>
+        <Class IRI="#Vinho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinho_Espulmante"/>
+        <Class IRI="#Vinho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinho_Fortificado"/>
+        <Class IRI="#Vinho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinho_Rosé"/>
+        <Class IRI="#Vinho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinho_Tinto"/>
+        <Class IRI="#Vinho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#X-Cake"/>
+        <Class IRI="#Sobremesas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Àsia"/>
+        <Class IRI="#Região_de_Origem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T&apos;Bone"/>
+        <Class IRI="#Carne_Vermelha"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Tipo_de_Uva"/>
+        <NamedIndividual IRI="#Cabernet_Sauvignon"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Eorganizado_como"/>
+        <NamedIndividual IRI="#Cabernet_Franc"/>
+        <NamedIndividual IRI="#Tipo_de_Uva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Eorganizado_como"/>
+        <NamedIndividual IRI="#Cabernet_Sauvignon"/>
+        <NamedIndividual IRI="#Tipo_de_Uva"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cafayate"/>
+        <NamedIndividual IRI="#Carne_Grelhada"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Aconcagua"/>
+        <DataProperty IRI="#Chile"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Alemanha"/>
+        <DataProperty IRI="#Europa"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Alentejo"/>
+        <DataProperty IRI="#Portugal"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Argentina"/>
+        <DataProperty IRI="#America"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Bekaa_Valley"/>
+        <DataProperty IRI="#Líbano"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Bordeaux"/>
+        <DataProperty IRI="#França"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Borgonha"/>
+        <DataProperty IRI="#França"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Brasil"/>
+        <DataProperty IRI="#America"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Cafayate"/>
+        <DataProperty IRI="#Argentina"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Califórnia"/>
+        <DataProperty IRI="#Estados_Unidos"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CasaBlanca_Valley"/>
+        <DataProperty IRI="#Chile"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Central_Otago"/>
+        <DataProperty IRI="#Nova_Zelândia"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Champagne"/>
+        <DataProperty IRI="#França"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Chile"/>
+        <DataProperty IRI="#America"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#China"/>
+        <DataProperty IRI="#Ásia"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Douro"/>
+        <DataProperty IRI="#Portugal"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Espanha"/>
+        <DataProperty IRI="#Europa"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Estados_Unidos"/>
+        <DataProperty IRI="#America"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#França"/>
+        <DataProperty IRI="#Europa"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Hokusetsu"/>
+        <DataProperty IRI="#Japão"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Itália"/>
+        <DataProperty IRI="#Europa"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Japão"/>
+        <DataProperty IRI="#Ásia"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Koshu"/>
+        <DataProperty IRI="#Japão"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Líbano"/>
+        <DataProperty IRI="#Ásia"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Maharashtra"/>
+        <DataProperty IRI="#Índia"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Maipo_Valley"/>
+        <DataProperty IRI="#Chile"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Malborough"/>
+        <DataProperty IRI="#Nova_Zelândia"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Mendoza"/>
+        <DataProperty IRI="#Argentina"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Mosel"/>
+        <DataProperty IRI="#Alemanha"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Ningxia"/>
+        <DataProperty IRI="#China"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Nova_Zelândia"/>
+        <DataProperty IRI="#Ásia"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Oregon"/>
+        <DataProperty IRI="#Estados_Unidos"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Piemonte"/>
+        <DataProperty IRI="#Itália"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Portugal"/>
+        <DataProperty IRI="#Europa"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Rheingal"/>
+        <DataProperty IRI="#Alemanha"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Ribera_del_Duero"/>
+        <DataProperty IRI="#Espanha"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Rioja"/>
+        <DataProperty IRI="#Espanha"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#San_Juan"/>
+        <DataProperty IRI="#Argentina"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Serra_Gaúcha"/>
+        <DataProperty IRI="#Brasil"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Shandong"/>
+        <DataProperty IRI="#China"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Toscana"/>
+        <DataProperty IRI="#Itália"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Vale_do_São_Francisco"/>
+        <DataProperty IRI="#Brasil"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Veneto"/>
+        <DataProperty IRI="#Itália"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Washington"/>
+        <DataProperty IRI="#Estados_Unidos"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Xinjiang"/>
+        <DataProperty IRI="#China"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Índia"/>
+        <DataProperty IRI="#Ásia"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#America"/>
+        <Class IRI="#Região_de_Origem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Europa"/>
+        <Class IRI="#Região_de_Origem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ásia"/>
+        <Class IRI="#Região_de_Origem"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vinho_Branco</IRI>
+        <Literal>Representa vinhos brancos, produzidos a partir de uvas brancas ou rosadas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vinho_Espulmante</IRI>
+        <Literal>Representa vinhos espumantes, com presença de gás carbônico dissolvido.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vinho_Fortificado</IRI>
+        <Literal>Representa vinhos fortificados, com teor alcoólico elevado e adição de brandy ou outro destilado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vinho_Rosé</IRI>
+        <Literal>Representa vinhos rosés, produzidos a partir de uvas tintas com contato breve com as cascas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vinho_Tinto</IRI>
+        <Literal>Representa vinhos tintos, produzidos a partir de uvas tintas.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
